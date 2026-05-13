@@ -1,3 +1,11 @@
+## 1.1.2
+
+* Updated dependencies to their latest versions:
+    * `package_info_plus` to `^10.1.0`
+    * `device_info_plus` to `^13.1.0`
+    * `share_plus` to `^13.1.0`
+    * `network_info_plus` to `^8.1.0`
+
 ## 1.1.1
 
 * Updated repository and issue tracker URLs in `pubspec.yaml`.
