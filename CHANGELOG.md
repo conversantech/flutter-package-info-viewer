@@ -1,3 +1,11 @@
+## 1.1.3
+
+* Expanded Flutter support to `>=3.24.0`.
+* Updated SDK constraints to `sdk: ">=3.5.0 <4.0.0"`.
+* Updated dependency ranges for `package_info_plus`, `device_info_plus`, `share_plus` (now supports 7.2.2+), `battery_plus`, and `network_info_plus` (now supports 4.0.1+) to support a wider range of Flutter environments.
+* Removed unused dependencies: `intl`, `cupertino_icons`, and `path_provider`.
+* Improved compatibility for sharing functionality across different plugin versions.
+
 ## 1.1.2
 
 * Updated dependencies to their latest versions:

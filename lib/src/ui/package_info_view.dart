@@ -100,11 +100,10 @@ class _PackageInfoViewerState extends State<PackageInfoViewer> {
 
   void _shareAllInfo() {
     final jsonString = _generateJsonData();
-    SharePlus.instance.share(
-      ShareParams(
-        text: jsonString,
-        subject: 'App Debug Info',
-      ),
+    // ignore: deprecated_member_use
+    Share.share(
+      jsonString,
+      subject: 'App Debug Info',
     );
   }
 

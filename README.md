@@ -3,11 +3,11 @@
 A robust Flutter package to display application version, dependencies, build information (Git commit, branch, author), dynamic configuration values, **and Device Information**. Perfect for debug menus, QA testing, and "About App" screens.
 
 ## Features 🚀
-- 📦 **App Info**: Displays Version, Build Number, Package ID, and Name.
-- 📱 **Device Info**: Shows Model, OS Version, Battery Level, and IP Address.
-- 🏗 **Build Metadata**: Shows Git Commit Hash, Branch, Author, and Build Date.
+- ✅ **App Info (Automatic)**: Displays Version, Build Number, Package ID, and Name.
+- ✅ **Device Info (Automatic)**: Shows Model, OS Version, Battery Level, and IP Address.
+- 🏗 **Build Metadata (Requires Setup)**: Shows Git Commit Hash, Branch, Author, and Build Date.
 - 🔧 **Config Viewer**: Safely displays environment variables or config keys (masks sensitive keys automatically).
-- 🧩 **Dependency List**: Automatically lists `dependencies` and `dev_dependencies` from your `pubspec.yaml`.
+- 🧩 **Dependency List (Requires Setup)**: Automatically lists `dependencies` and `dev_dependencies` from your `pubspec.yaml`.
 - 🎨 **Fully Customizable**: Change colors to match your app's theme.
 - 📤 **Share/Copy**: Share all debug info as a formatted JSON or copy individual values.
 - 🐞 **Debug Button**: A handy floating/inline button to trigger the info screen.
@@ -30,9 +30,9 @@ flutter pub get
 
 ---
 
-## Setup (Crucial Step for Metadata) ⚡
+## Setup (Optional: For Build Metadata) ⚡
 
-To see accurate **Git Commit**, **Build Date**, and **Dependency versions**, you must generate a `build-info.json` file.
+By default, the package will automatically display App and Device information. However, to see **Git Commit**, **Build Date**, and **Dependency versions**, you must follow these steps:
 
 1. Create an `assets` folder in your project root if it doesn't exist.
 2. Run the generation script from your project root:
