@@ -1,9 +1,9 @@
 name: flutter_package_info_viewer
 description: "A robust Flutter package to display app version, device info, and build metadata (Git commit, branch, author). Perfect for debug menus."
-version: 1.1.0
-# repository: https://bitbucket.org/all-projects-list/flutter-package-info-viewer
-# homepage: https://bitbucket.org/all-projects-list/flutter-package-info-viewer
-# issue_tracker: https://bitbucket.org/all-projects-list/flutter-package-info-viewer/issues
+version: 1.1.1
+repository: https://github.com/conversantech/flutter-package-info-viewer
+homepage: https://github.com/conversantech/flutter-package-info-viewer
+issue_tracker: https://github.com/conversantech/flutter-package-info-viewer/issues
 topics:
   - debug
   - metadata

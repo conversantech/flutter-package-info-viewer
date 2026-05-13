@@ -1,3 +1,8 @@
+## 1.1.1
+
+* Updated repository and issue tracker URLs in `pubspec.yaml`.
+* Minor metadata improvements for package publication.
+
 ## 1.1.0
 
 * **Breaking Change**: Renamed `PackageInfo` widget/screen to `PackageInfoViewer` to avoid naming conflicts with the `package_info_plus` package.
