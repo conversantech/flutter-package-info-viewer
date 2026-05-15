@@ -1,3 +1,8 @@
+## 1.1.4
+
+* Updated `README.md` with contribution guidelines and project metadata.
+* Updated `LICENSE` with attribution requirements.
+
 ## 1.1.3
 
 * Expanded Flutter support to `>=3.24.0`.

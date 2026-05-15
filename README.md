@@ -124,4 +124,23 @@ DebugButton(
 
 ---
 
-License: MIT
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to open an issue or submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+---
+
+## Created & Maintained By
+
+This package is created and maintained by [Conversantech](https://conversantech.com).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Copyright (c) 2026 Conversantech.
