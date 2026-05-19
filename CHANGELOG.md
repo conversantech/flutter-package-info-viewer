@@ -1,3 +1,7 @@
+## 1.1.5
+
+* Updated `LICENSE` file.
+
 ## 1.1.4
 
 * Updated `README.md` with contribution guidelines and project metadata.
